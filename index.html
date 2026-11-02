@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Priyabrata Purohit — Senior AI Engineer</title>
+<meta name="description" content="Priyabrata Purohit — Senior AI Engineer specialising in Agentic AI, RAG and LLMs. 8.5+ years across Adobe, FactSet and Cognizant.">
+<style>
+  :root{
+    --bg:#ffffff;
+    --surface:#f7f8fa;
+    --text:#14171f;
+    --muted:#5a6273;
+    --line:#e3e6ec;
+    --accent:#1f5fd0;
+    --accent-soft:#eaf1fd;
+    --maxw:860px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0f1218;
+      --surface:#161b24;
+      --text:#e8eaf0;
+      --muted:#9aa3b5;
+      --line:#262d3a;
+      --accent:#6ea8ff;
+      --accent-soft:#17243a;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0f1218;--surface:#161b24;--text:#e8eaf0;--muted:#9aa3b5;
+    --line:#262d3a;--accent:#6ea8ff;--accent-soft:#17243a;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--bg);color:var(--text);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    padding:0 16px;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:48px 0 72px}
+
+  header{border-bottom:2px solid var(--accent);padding-bottom:20px;margin-bottom:28px}
+  h1{font-size:clamp(28px,5vw,38px);line-height:1.15;margin:0 0 6px;letter-spacing:-.02em}
+  .tagline{font-size:clamp(15px,2.4vw,17px);color:var(--accent);font-weight:600;margin:0 0 12px}
+  .meta{font-size:14px;color:var(--muted);margin:0 0 14px}
+  .meta .sep{opacity:.5;padding:0 7px}
+  .contact{display:flex;flex-wrap:wrap;gap:8px 10px;font-size:14px;margin-bottom:16px}
+  .contact a{color:var(--text);text-decoration:none;border-bottom:1px solid var(--line)}
+  .contact a:hover{color:var(--accent);border-color:var(--accent)}
+  .contact span{color:var(--muted)}
+  .actions{display:flex;flex-wrap:wrap;gap:10px}
+  .btn{
+    display:inline-block;padding:9px 16px;border-radius:7px;font-size:14px;
+    font-weight:600;text-decoration:none;border:1px solid var(--accent);
+  }
+  .btn-primary{background:var(--accent);color:#fff}
+  .btn-primary:hover{filter:brightness(1.08)}
+  .btn-ghost{background:transparent;color:var(--accent)}
+  .btn-ghost:hover{background:var(--accent-soft)}
+
+  h2{
+    font-size:13px;text-transform:uppercase;letter-spacing:.11em;
+    color:var(--muted);font-weight:700;margin:36px 0 14px;
+    padding-bottom:7px;border-bottom:1px solid var(--line);
+  }
+  p{margin:0 0 14px}
+  .summary{font-size:16.5px}
+
+  ul{margin:0 0 14px;padding-left:20px}
+  li{margin-bottom:7px}
+  li strong{font-weight:650}
+
+  .role{margin-bottom:24px}
+  .role-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;align-items:baseline}
+  .role-title{font-size:17px;font-weight:700;margin:0}
+  .role-dates{font-size:13.5px;color:var(--muted);white-space:nowrap}
+  .role-org{font-size:14.5px;color:var(--accent);font-weight:600;margin:1px 0 9px}
+
+  .comp{margin-bottom:11px;font-size:15px}
+  .comp-label{font-weight:700;display:block;margin-bottom:1px}
+  .comp-items{color:var(--muted)}
+
+  .proj{
+    background:var(--surface);border:1px solid var(--line);border-radius:9px;
+    padding:14px 16px;margin-bottom:11px;
+  }
+  .proj-head{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;margin-bottom:5px}
+  .proj-name{font-size:15.5px;font-weight:700;margin:0}
+  .proj-link{font-size:13px;color:var(--accent);text-decoration:none;font-weight:600}
+  .proj-link:hover{text-decoration:underline}
+  .proj p{margin:0;font-size:14.5px;color:var(--muted)}
+
+  .edu{margin-bottom:16px}
+  .edu-deg{font-weight:700;font-size:15.5px}
+  .edu-school{color:var(--muted);font-size:14.5px}
+
+  footer{
+    margin-top:44px;padding-top:18px;border-top:1px solid var(--line);
+    font-size:13px;color:var(--muted);
+  }
+  footer a{color:var(--accent)}
+
+  @media print{
+    body{padding:0;font-size:11pt;background:#fff;color:#000}
+    .wrap{max-width:none;padding:0}
+    .actions,footer{display:none}
+    h2{margin:18px 0 8px}
+    .proj{background:none;border:1px solid #ccc}
+    a{color:#000;text-decoration:none}
+  }
+  @media (max-width:560px){
+    .wrap{padding:32px 0 56px}
+    .role-dates{white-space:normal}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Priyabrata Purohit</h1>
+  <p class="tagline">Senior AI Engineer &middot; Agentic AI, RAG &amp; LLMs &middot; Multi-Agent Systems</p>
+  <p class="meta">
+    Bengaluru, India — relocating to the UAE (Dubai / Abu Dhabi)
+    <span class="sep">|</span>Open to visa sponsorship
+    <span class="sep">|</span>1-month notice
+  </p>
+  <div class="contact">
+    <a href="mailto:priyabratapurohit1991@gmail.com">priyabratapurohit1991@gmail.com</a>
+    <span>&middot;</span>
+    <a href="tel:+919011661806">+91 90116 61806</a>
+    <span>&middot;</span>
+    <a href="https://linkedin.com/in/priyabratapurohit08" target="_blank" rel="noopener">LinkedIn</a>
+    <span>&middot;</span>
+    <a href="https://github.com/purohit08" target="_blank" rel="noopener">GitHub</a>
+  </div>
+  <div class="actions">
+    <a class="btn btn-primary" href="Priyabrata-Purohit-AI-Resume.pdf" download>Download PDF</a>
+    <a class="btn btn-ghost" href="mailto:priyabratapurohit1991@gmail.com">Get in touch</a>
+  </div>
+</header>
+
+<section>
+  <h2>Summary</h2>
+  <p class="summary">
+    Agentic AI Engineer with 8.5+ years across Adobe, FactSet and Cognizant, including 3+ years designing and
+    shipping production multi-agent and RAG systems end to end. I build autonomous agents, multi-agent
+    orchestration, MCP tool calling and multi-source RAG on Azure AI Foundry with GPT and Claude — including
+    conversational agents in daily enterprise use. Deep in secure AI architecture (data-source isolation,
+    access-controlled retrieval, trace-based auditability) and LLM evaluation and MLOps (CI/CD quality gates,
+    prompt regression testing, cost and latency metrics).
+  </p>
+</section>
+
+<section>
+  <h2>Highlights</h2>
+  <ul>
+    <li><strong>Prototype to production:</strong> built and deployed an enterprise AI agent (Azure AI Foundry, GPT and Claude, Slack, RAG over SharePoint) now in day-to-day live use.</li>
+    <li><strong>3-source unified RAG index:</strong> consolidated wiki, PDF/PowerPoint content and Databricks tables into one Azure AI Search index, exposed as isolated, access-controlled MCP servers.</li>
+    <li><strong>8 production agents under quality gates:</strong> rubric-based evaluation framework with hard pass/fail gates, backed by an automated CI/CD evaluation pipeline.</li>
+    <li><strong>Recognition:</strong> 2-time Adobe Innovation Award winner; invited speaker and publication at INFORMS 2025 Singapore; Certificate in Agentic AI, Johns Hopkins (2026).</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Core Competencies</h2>
+  <div class="comp">
+    <span class="comp-label">Agentic AI &amp; LLMs</span>
+    <span class="comp-items">Production AI agents &middot; Multi-agent orchestration &middot; Agent-to-agent routing &middot; MCP tool orchestration &middot; Multi-source RAG and grounding &middot; Prompt engineering &middot; Structured outputs and schema validation</span>
+  </div>
+  <div class="comp">
+    <span class="comp-label">Secure &amp; Responsible AI</span>
+    <span class="comp-items">Data-source isolation &middot; Access-controlled retrieval &middot; Auditability and tracing &middot; AI guardrails &middot; Hallucination and grounding-gap detection &middot; Enterprise data governance</span>
+  </div>
+  <div class="comp">
+    <span class="comp-label">Evaluation &amp; MLOps</span>
+    <span class="comp-items">LLM evaluation and benchmarking &middot; Prompt regression testing &middot; Automated evaluation pipelines &middot; CI/CD quality gates &middot; Agent cost and behaviour metrics</span>
+  </div>
+  <div class="comp">
+    <span class="comp-label">AI &amp; LLM Stack</span>
+    <span class="comp-items">LangGraph &middot; LangChain &middot; Azure AI Foundry &middot; Azure AI Search &middot; GPT &middot; Claude &middot; MCP &middot; RAGAS &middot; DeepEval &middot; Langfuse</span>
+  </div>
+  <div class="comp">
+    <span class="comp-label">Engineering &amp; Data</span>
+    <span class="comp-items">Python &middot; Azure Functions &middot; REST (Uvicorn) &middot; GitHub Actions &middot; Playwright &middot; Docker &middot; SQL / T-SQL &middot; Databricks &middot; Azure SQL &middot; Blob Storage &middot; Power BI &middot; Tableau &middot; Predictive modelling</span>
+  </div>
+  <div class="comp">
+    <span class="comp-label">Leadership &amp; Delivery</span>
+    <span class="comp-items">Team leadership &middot; Mentoring &middot; U.S. and global stakeholder management &middot; Full lifecycle delivery &middot; Documentation and runbooks</span>
+  </div>
+</section>
+
+<section>
+  <h2>Experience</h2>
+
+  <div class="role">
+    <div class="role-head">
+      <p class="role-title">Senior Analyst — AI Engineer</p>
+      <span class="role-dates">Dec 2022 – Present</span>
+    </div>
+    <p class="role-org">Adobe &middot; Bengaluru, India</p>
+    <ul>
+      <li><strong>Enterprise AI agent:</strong> built and deployed a production AI agent on Azure AI Foundry (Python, served via Uvicorn), integrated with Slack and powered by GPT and Claude, with multi-document RAG ingestion from SharePoint.</li>
+      <li><strong>Unified RAG and MCP:</strong> designed an Azure AI Search index across chunked wiki content, Blob Storage PDFs and PowerPoints, and Databricks tables embedded with a Foundry embedding model. Exposed each source as a separate MCP server in an Azure agent hub, with data-source isolation and prompt-based routing to the correct grounded source.</li>
+      <li><strong>Multi-agent orchestration:</strong> built agents on a multi-agent platform and contributed to its orchestration layer, dispatching queries across domain agents using per-agent purpose definitions, on a runtime handling prompt assembly, tool manifests and tracing.</li>
+      <li><strong>Serverless automation:</strong> deployed a PowerPoint-generation agent (Azure Function App) as a Foundry agent, integrating internal data sources to remove manual deck-building across teams.</li>
+      <li><strong>Evaluation framework:</strong> created a rubric-based evaluation framework with hard pass/fail gates across the production agent fleet, and benchmarked competing prompting and retrieval strategies to select the production configuration.</li>
+      <li><strong>Automated CI/CD evaluation:</strong> built a phased pipeline — trace-derived test bank, scheduled GitHub Actions runs and Playwright UI testing against the live agent — using RAGAS, DeepEval and Langfuse to set repeatable quality gates.</li>
+      <li><strong>Observability and cost:</strong> analysed live Langfuse traces and user feedback, compared prompt versions across Dev and Production to catch regressions before release, and tracked response time, token use and prompt-cache reuse against targets.</li>
+      <li><strong>Production risk resolution:</strong> detected and fixed two grounding risks through trace-based auditability — a prompt and search-index mismatch, and an agent prompt referencing a capability with no backing data source.</li>
+      <li><strong>Predictive analytics:</strong> led delivery of risk prediction models (Python, SQL, Databricks) that flag at-risk enterprise accounts ahead of escalation.</li>
+      <li><strong>Documentation and mentoring:</strong> authored per-agent purpose specifications, architecture and repo documentation for handoff, drove adoption with U.S. and global stakeholders, and mentored juniors and interns.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head">
+      <p class="role-title">Product Specialist</p>
+      <span class="role-dates">Jun 2020 – Dec 2022</span>
+    </div>
+    <p class="role-org">FactSet &middot; Hyderabad, India</p>
+    <ul>
+      <li><strong>Team leadership:</strong> led and mentored a team of 4 on the CTS financial data product, with technical guidance in SQL and Python.</li>
+      <li><strong>Data quality:</strong> strengthened data standards and quality controls across M&amp;A, PE/VC and Supply Chain datasets, delivering 15% faster data feeds and 30% faster analysis.</li>
+      <li><strong>Analysis workflows:</strong> used T-SQL and MSSQL Server to accelerate analysis workflows, and built Power BI dashboards for financial-services stakeholders that widened data access across teams by 30%.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head">
+      <p class="role-title">Business Analyst</p>
+      <span class="role-dates">May 2018 – Jun 2020</span>
+    </div>
+    <p class="role-org">Cognizant (Google Maps client) &middot; Hyderabad, India</p>
+    <ul>
+      <li><strong>Reporting:</strong> delivered SQL and Tableau reporting on KPIs and operational metrics across multiple markets, turning stakeholder requirements into recurring cross-functional reports.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head">
+      <p class="role-title">IT Applications Analyst (Co-op)</p>
+      <span class="role-dates">Jan 2016 – Jun 2016</span>
+    </div>
+    <p class="role-org">EnerNOC &middot; Boston, MA, USA</p>
+    <ul>
+      <li><strong>ETL and reporting:</strong> performed ETL, deployed SSIS packages to MS SQL Server and built NetSuite reports across payments, purchase orders, invoices and customer data.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Selected Projects</h2>
+
+  <div class="proj">
+    <div class="proj-head">
+      <p class="proj-name">enterprise-rag-service</p>
+      <a class="proj-link" href="https://github.com/purohit08/enterprise-rag-service" target="_blank" rel="noopener">github.com/purohit08/enterprise-rag-service →</a>
+    </div>
+    <p>Framework-free local RAG over company AI-initiative PDFs (FastAPI + Streamlit + Chroma + Hugging Face). Built as a v1 baseline to understand retrieval from first principles, now evolving into a LangChain/Azure multi-model service with Langfuse tracing and promptfoo evaluations.</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <p class="proj-name">RAG-DSPy-Pipeline</p>
+      <a class="proj-link" href="https://github.com/purohit08/RAG-DSPy-Pipeline" target="_blank" rel="noopener">github.com/purohit08/RAG-DSPy-Pipeline →</a>
+    </div>
+    <p>End-to-end RAG pipeline built with DSPy, covering document chunking strategies and programmatic prompt optimisation rather than hand-tuned prompts.</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <p class="proj-name">resume-extractor</p>
+      <a class="proj-link" href="https://github.com/purohit08/resume-extractor" target="_blank" rel="noopener">github.com/purohit08/resume-extractor →</a>
+    </div>
+    <p>LLM-powered resume parser using the Claude API, extracting skills, companies, experience and profile links from PDF resumes into validated structured output.</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <p class="proj-name">claude-scraper</p>
+      <a class="proj-link" href="https://github.com/purohit08/claude-scraper" target="_blank" rel="noopener">github.com/purohit08/claude-scraper →</a>
+    </div>
+    <p>Tool-calling agent that scrapes, summarises, chats with, or extracts structured data from any URL using Claude.</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <p class="proj-name">Ppt-Generator</p>
+      <a class="proj-link" href="https://github.com/purohit08/Ppt-Generator" target="_blank" rel="noopener">github.com/purohit08/Ppt-Generator →</a>
+    </div>
+    <p>Python service that generates PowerPoint decks programmatically — the open-source counterpart to the serverless deck-generation agent shipped at Adobe.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="edu">
+    <div class="edu-deg">MS, Engineering Management — Concentration: Information Systems</div>
+    <div class="edu-school">Northeastern University, Boston, USA &middot; Sep 2014 – Dec 2016</div>
+  </div>
+  <div class="edu">
+    <div class="edu-deg">B.Tech, Electronics &amp; Communication Engineering</div>
+    <div class="edu-school">Vellore Institute of Technology, Vellore, India &middot; 2010 – 2014</div>
+  </div>
+</section>
+
+<section>
+  <h2>Certifications &amp; Publications</h2>
+  <ul>
+    <li><strong>Certificate Program in Agentic AI</strong> — Johns Hopkins University, 2026.</li>
+    <li><strong>Invited Speaker and Publication, INFORMS 2025, Singapore</strong> — “Leveraging Generative AI for Automated Dashboard Design and Insights Generation”.</li>
+    <li><strong>Generative AI Fundamentals</strong>; <strong>Data Science Methodology</strong> — IBM.</li>
+    <li><strong>SQL (Intermediate)</strong> — HackerRank.</li>
+  </ul>
+</section>
+
+<footer>
+  <p>
+    Last updated November 2026 &middot;
+    <a href="Priyabrata-Purohit-AI-Resume.pdf" download>Download PDF</a> &middot;
+    <a href="https://github.com/purohit08" target="_blank" rel="noopener">github.com/purohit08</a>
+  </p>
+</footer>
+
+</div>
+</body>
+</html>
